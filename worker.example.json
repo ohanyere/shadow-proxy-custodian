@@ -1,0 +1,10 @@
+{
+  "os": "ubuntu-24.04",
+  "architecture": "x86_64",
+  "runner_image_version": null,
+  "min_cpus": 2,
+  "min_memory_bytes": 6442450944,
+  "min_disk_bytes": 10737418240,
+  "custody_deployed": false,
+  "receipt_store": ""
+}

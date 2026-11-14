@@ -1,0 +1,48 @@
+{
+  "tools": {
+    "kind": "v0.33.0",
+    "kubectl": "v1.35.8",
+    "docker": "28.0.4"
+  },
+  "images": {
+    "node": "kindest/node:v1.35.8@sha256:07b2536e30b803ed61d1677a79df6115f798ce64c80f9e22f6ed45afd09323c0",
+    "app": "hashicorp/http-echo:1.0.0@sha256:fcb75f691c8b0414d670ae570240cbf95502cc18a9ba57e982ecac589760a186",
+    "probe": "curlimages/curl:8.12.1@sha256:94e9e444bcba979c2ea12e27ae39bee4cd10bc7041a472c4727a558e213744e6"
+  },
+  "binaries": {
+    "kind": {
+      "version": "v0.33.0",
+      "architecture": "linux/amd64",
+      "sha256": null,
+      "provenance_review": null
+    },
+    "kubectl": {
+      "version": "v1.35.8",
+      "architecture": "linux/amd64",
+      "sha256": null,
+      "provenance_review": null
+    }
+  },
+  "oci": {
+    "node": {
+      "index_file": null,
+      "manifest_file": null,
+      "platform_digest": null,
+      "provenance_review": null
+    },
+    "app": {
+      "index_file": null,
+      "manifest_file": null,
+      "platform_digest": null,
+      "provenance_review": null
+    },
+    "probe": {
+      "index_file": null,
+      "manifest_file": null,
+      "platform_digest": null,
+      "provenance_review": null
+    }
+  },
+  "docker_client_sha256": null,
+  "docker_provenance_review": null
+}

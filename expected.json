@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "images": {
+    "node": "kindest/node:v1.35.8@sha256:07b2536e30b803ed61d1677a79df6115f798ce64c80f9e22f6ed45afd09323c0",
+    "app": "hashicorp/http-echo:1.0.0@sha256:fcb75f691c8b0414d670ae570240cbf95502cc18a9ba57e982ecac589760a186",
+    "probe": "curlimages/curl:8.12.1@sha256:94e9e444bcba979c2ea12e27ae39bee4cd10bc7041a472c4727a558e213744e6"
+  },
+  "body": "{\"status\":\"ok\"}\n",
+  "http_status": 200,
+  "selector": {
+    "app": "e001-http"
+  },
+  "labels": {
+    "app": "e001-http",
+    "tier": "api"
+  }
+}
